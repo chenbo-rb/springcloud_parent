@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.spring.cloud</groupId>
+    <artifactId>springcloud_parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+    <modules>
+        <!--服务追踪分析 -->
+        <module>zipkin_server</module>
+        <module>zipkin_client</module>
+        <module>zipkin_client01</module>
+        <module>zipkin_client02</module>
+        <!-- 服务配置模块 -->
+        <module>config_server</module>
+        <module>config_client</module>
+        <!-- 路由网关模块 -->
+        <module>zuul_server</module>
+        <!-- 服务消费模块 -->
+        <module>feign_server</module>
+        <module>ribbon_server</module>
+        <!-- 服务注册与发现 -->
+        <module>eureka_client01</module>
+        <module>eureka_client</module>
+        <module>eureka_server</module>
+    </modules>
+
+</project>
